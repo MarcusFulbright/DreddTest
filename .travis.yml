@@ -1,0 +1,9 @@
+language: php
+php:
+  - 5.6
+pre_install:
+  - npm install -g dredd@1.0.1
+install: composer install
+before_script:
+ - dredd
+
