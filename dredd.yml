@@ -2,7 +2,7 @@ dry-run: null
 hookfiles: null
 language: nodejs
 sandbox: false
-server: php artisan serve
+#server: php artisan serve
 server-wait: 5
 init: false
 custom: {}
@@ -22,4 +22,4 @@ timestamp: false
 silent: false
 path: []
 blueprint: blueprint.md
-endpoint: 'http://localhost:8000'
+endpoint: 'http://localhost:3000'
