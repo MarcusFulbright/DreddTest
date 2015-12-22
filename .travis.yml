@@ -6,6 +6,5 @@ before_install:
 install: composer install
 before_script:
  - php artisan serve
- - sleep 3
+after_success:
  - dredd
-
