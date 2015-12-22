@@ -5,5 +5,7 @@ before_install:
   - npm install -g dredd@1.0.1
 install: composer install
 before_script:
+ - php artisan serve
+ - sleep 3
  - dredd
 
