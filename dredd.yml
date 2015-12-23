@@ -1,14 +1,14 @@
 dry-run: null
-hookfiles: null
-language: nodejs
+hookfiles: ./hooks*.php
+language: vendor/bin/dredd-hooks-php
 sandbox: false
-#server: php artisan serve
+server: php artisan serve
 server-wait: 5
 init: false
 custom: {}
 names: false
 only: []
-reporter: null
+reporter: apiary
 output: []
 header: []
 sorted: false
@@ -22,4 +22,4 @@ timestamp: false
 silent: false
 path: []
 blueprint: blueprint.md
-endpoint: 'http://localhost:8000'
+endpoint: 'http://localhost:8000/'
